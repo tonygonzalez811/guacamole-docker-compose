@@ -6,7 +6,7 @@ Run [Apache Guacamole](https://guacamole.apache.org/) with docker containers usi
 
 Clone repository
 ```bash
-git clone https://github.com/reisbel/guacamole-docker-compose.git && cd guacamole-docker-compose
+git clone https://github.com/tonygonzalez811/guacamole-docker-compose.git && cd guacamole-docker-compose
 ```
 
 Edit .env, changing the username and password for postgres database.
