@@ -11,7 +11,7 @@ git clone https://github.com/tonygonzalez811/guacamole-docker-compose.git && cd 
 
 Edit .env, changing the username and password for postgres database.
 ```bash
-vim .env 
+sudo nano .env 
 ```
 
 ```cfg
@@ -22,12 +22,12 @@ POSTGRES_PASSWORD=new_secure_postgres_password
 
 Seed postgres database
 ```bash
-docker-compose up init-guacamole-db
+sudo docker-compose up init-guacamole-db
 ```
 
 Start everything
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 Guacamole is now listening on port 8080
